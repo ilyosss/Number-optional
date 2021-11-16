@@ -1,0 +1,46 @@
+body {
+  background-image: url(tt.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#label {
+  position: absolute;
+  width: 700px;
+  height: 150px;
+  border-radius: 4px;
+  background-color: rgba(24, 247, 255, 0.384);
+  font-size: 90px;
+  margin-left: 30%;
+  margin-top: 40px;
+  text-align: center;
+  color: white;
+}
+
+#bt {
+  position: absolute;
+  width: 700px;
+  height: 50px;
+  background-color: rgba(19, 227, 255, 0.37);
+  border: 0px;
+  margin-top: 207px;
+  margin-left: 30%;
+  color: white;
+  font-size: 30px;
+  font-family: serif;
+  letter-spacing: 3px;
+}
+
+#bt:hover {
+  position: absolute;
+  width: 700px;
+  height: 55px;
+  background-color: rgba(19, 227, 255, 0.37);
+  border: 0px;
+  margin-top: 207px;
+  margin-left: 30%;
+  box-shadow: 10px 10px 30px rgb(29, 255, 255);
+  color: white;
+  cursor: pointer;
+  letter-spacing: 3px;
+}
